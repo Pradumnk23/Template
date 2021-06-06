@@ -272,7 +272,7 @@ void explainSet() {
 	st.erase(it1, it2); // after erase {1, 4, 5} [first, last)
 
 	// lower_bound() and upper_bound() function works in the same way
-	// as in vector it does.
+	// as in vector it does
 
 	// This is the syntax
 	auto it = st.lower_bound(2); 
